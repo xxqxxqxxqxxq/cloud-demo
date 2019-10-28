@@ -6,6 +6,7 @@ import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 
 @SpringBootApplication
 @EnableZuulProxy//表明该服务具有zuul路由功能
+//这是一个注释
 public class RouterApplication {
 
     public static void main(String[] args) {
